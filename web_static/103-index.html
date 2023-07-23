@@ -4,23 +4,23 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/x-icon" href="images/icon.png">
-    <link rel="stylesheet" href="styles/102-common.css">
-    <link rel="stylesheet" href="styles/102-header.css">
-    <link rel="stylesheet" href="styles/102-footer.css">
-    <link rel="stylesheet" href="styles/102-filters.css">
-    <link rel="stylesheet" href="styles/102-places.css">
+    <link rel="stylesheet" href="styles/103-common.css">
+    <link rel="stylesheet" href="styles/103-header.css">
+    <link rel="stylesheet" href="styles/103-footer.css">
+    <link rel="stylesheet" href="styles/103-filters.css">
+    <link rel="stylesheet" href="styles/103-places.css">
     <title>AirBnB clone</title>
   </head>
   <body>
     <header>
-      <div class="mobile_nav">
-        <label for="main_check" class="main_nav_burguer">|||</label>
-        <input type="checkbox" id="main_check" name="main_check" class="main_nav_check">
+      <div class="mobile_nav" role="navigation" aria-label="Navigate through site content">
+        <label for="main_check" class="main_nav_burguer" aria-label="Responsive popup menu">|||</label>
+        <input type="checkbox" id="main_check" name="main_check" class="main_nav_check" aria-hidden="true" tabindex=0>
           <nav>
               <ul class="nav_bar_level1">
                 <li>
                     <label for="second_check"><span>States</span></label>
-                    <input type="checkbox" name="second_check" id="second_check">
+                    <input type="checkbox" name="second_check" id="second_check" aria-hidden="true">
                   <ul>
                     <li><span>Arizona</span></li>
                     <li><span>California</span></li>
@@ -28,7 +28,7 @@
                   </li>
                 <li>
                   <label for="third_check"><span>Amenities</span></label>
-                  <input type="checkbox" name="second_check" id="third_check">
+                  <input type="checkbox" name="second_check" id="third_check" aria-hidden="true">
                   <ul>
                     <li><span>Internet</span></li>
                     <li><span>Tv</span></li>
@@ -42,7 +42,7 @@
       </div>
     </header>
     <div class="container">
-      <section class="filters">
+      <section class="filters" role="navigation">
         <div class="locations">
           <h3>States</h3>
           <h4>California, Arizona...</h4>
@@ -113,11 +113,11 @@
             <h2>2 Reviews</h2>
             <ul>
               <li>
-                <h3>From John the 17th June 2023</h3>
+                <h3>From Dylan the 7th July 2023</h3>
                 <p>Runshi is an epic host. Nothing more i can say. 5 star!</p>
               </li>
               <li>
-                <h3>From Agnes 24th June 2023</h3>
+                <h3>From Soares 24th June 2023</h3>
                 <p>Higly recommended!</p>
               </li>
             </ul>
@@ -133,7 +133,7 @@
             <div class="number_bathrooms">1 Bathroom</div>
           </div><!-- end information -->
           <div class="user">
-            <p><b>Owner:</b> Addrienne</p>
+            <p><b>Owner:</b> Kimberly</p>
           </div><!-- end user -->
           <div class="description">
             <p>Our place is a private, afffordable stand-alone guest house centrally located just minutes to French Quarters, downtown the Fair Grounds (Jazz Fest) and City Park. The guest house is a quaint, 400 suare ft. with a full bath, mini kitchen, & livin room. The extra high cellings make the home feel more spacious. The sofa converts to bed also. We have a hand made counter area that adds character to the room and a great porch/deck to relax on and have a glass of Merlot.</p>
@@ -151,11 +151,11 @@
             <h2>1 Review</h2>
             <ul>
               <li>
-                <h3>From Susan the 15th July 2023</h3>
+                <h3>From Becca the 5th July 2023</h3>
                 <p>Runshi is an epic host. Nothing more i can say. 5 star!</p>
               </li>
               <li>
-                <h3>From Alex 23rd July 2023</h3>
+                <h3>From Ray 14th July 2023</h3>
                 <p>Higly recommended!</p>
               </li>
             </ul>
@@ -197,7 +197,7 @@
             <h2>1 Review</h2>
             <ul>
               <li>
-                <h3>From Gary Moore the 13th July 2023</h3>
+                <h3>From Patrick the 13th July 2023</h3>
                 <p>I love this place. Amazing!</p>
               </li>
             </ul>
@@ -241,11 +241,11 @@
             <h2>2 Reviews</h2>
             <ul>
               <li>
-                <h3>From Bob Dylan the 10th July 2023</h3>
+                <h3>From Eric the 17th July 2023</h3>
                 <p>Runshi is an epic host. Nothing more i can say. 5 star!</p>
               </li>
               <li>
-                <h3>From Connor 23rd July 2023</h3>
+                <h3>From Kheri 4th July 2023</h3>
                 <p>Higly recommended!</p>
               </li>
             </ul>
@@ -289,11 +289,11 @@
             <h2>2 Reviews</h2>
             <ul>
               <li>
-                <h3>From Bob Dylan the 10th July 2023</h3>
+                <h3>From Bob Dylan the 27th August 2022</h3>
                 <p>Runshi is an epic host. Nothing more i can say. 5 star!</p>
               </li>
               <li>
-                <h3>From Connor 20th July 2023</h3>
+                <h3>From Connor 19th July 2023</h3>
                 <p>Higly recommended!</p>
               </li>
             </ul>
@@ -337,11 +337,11 @@
             <h2>2 Reviews</h2>
             <ul>
               <li>
-                <h3>From Max the 15th July 2023</h3>
+                <h3>From Bob Dylan the 7th July 2023</h3>
                 <p>Runshi is an epic host. Nothing more i can say. 5 star!</p>
               </li>
               <li>
-                <h3>From Kherington Ray the 23rd July, 2023</h3>
+                <h3>From Nik 14th July 2023</h3>
                 <p>Higly recommended!</p>
               </li>
             </ul>
@@ -350,7 +350,7 @@
 
         </section> <!-- end section -->
     </div>
-    <footer>
+    <footer aria-label="Footer brand information">
       <p>Best School</p>
     </footer>
   </body>
